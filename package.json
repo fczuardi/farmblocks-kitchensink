@@ -12,6 +12,7 @@
     "budo": "^10.0.4",
     "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.0.0",
+    "prettier": "^1.7.3",
     "reactify": "^1.1.1"
   },
   "config": {
@@ -21,7 +22,12 @@
   },
   "browserify": {
     "transform": [
-        ["reactify", {"es6": true}]
+      [
+        "reactify",
+        {
+          "es6": true
+        }
+      ]
     ]
   },
   "dependencies": {
