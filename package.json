@@ -11,12 +11,18 @@
   "devDependencies": {
     "budo": "^10.0.4",
     "commitizen": "^2.9.6",
-    "cz-conventional-changelog": "^2.0.0"
+    "cz-conventional-changelog": "^2.0.0",
+    "reactify": "^1.1.1"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "browserify": {
+    "transform": [
+        ["reactify", {"es6": true}]
+    ]
   },
   "dependencies": {
     "@crave/farmblocks-alert": "^1.2.0",
