@@ -1,6 +1,6 @@
 {
-  "name": "kitchensink",
-  "version": "1.0.0",
+  "name": "farmblocks-kitchensink",
+  "version": "0.1.0",
   "main": "index.js",
   "author": "Fabricio c Zuardi <fabricio@fabricio.org>",
   "license": "MIT",
