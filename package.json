@@ -1,0 +1,19 @@
+{
+  "name": "kitchensink",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Fabricio c Zuardi <fabricio@fabricio.org>",
+  "license": "MIT",
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
