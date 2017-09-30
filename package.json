@@ -17,6 +17,9 @@
     }
   },
   "dependencies": {
-    "@crave/farmblocks-alert": "^1.2.0"
+    "@crave/farmblocks-alert": "^1.2.0",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "styled-components": "^2.2.0"
   }
 }
